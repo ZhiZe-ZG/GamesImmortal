@@ -33,7 +33,7 @@ GOG 上售卖的 Diablo 虽然能在 Windows 11 上正常启动，但受限于�
 
 对于使用中日韩翻译的玩家，还需要再下载一个游戏专用的字体数据文件到 devilutionX 文件夹。这个文件叫 `font.mpq` 从以下地址下载：
 
-* devilutionX 的 CJK 字体文件 `font.mpq`: <https://github.com/diasurgical/devilutionx-assets/releases/download/v2/fonts.mpq>
+* devilutionX 的 CJK 字体文件 `fonts.mpq`: <https://github.com/diasurgical/devilutionx-assets/releases/download/v2/fonts.mpq>
 
 此外，还有俄语和波兰语的声音文件可选。需要的玩家可以根据 devilutionX 的安装指南自行安装。
 
