@@ -14,15 +14,23 @@
 
 GOG 上售卖的 Diablo 虽然能在 Windows 11 上正常启动，但受限于开发时的技术环境，这个游戏如今玩起来有很多不舒服的地方。例如锁定的低分辨率和画面宽高比。你可以通过非官方的画面补丁之类的来解决这个问题。但由于 Diablo 本身的程序并不开源，这些补丁所能做的比较有限。
 
-知则建议使用 devilutionX 来代替各种非官方补丁。 devilutionX 本身不是一个补丁程序，而是重新实现了 Diablo。也就是说，它实际上重写了一个能实现 Diablo 玩法的程序，并开源发布。在 devilutionX 项目中，系统适配、画面调整、 bug 修复、 UI 改进、机制更改等都可以通过直接改动源码来解决。所以， devilutionX 比原版的 Diablo 更具灵活性，你可以在 Linux， Mac 甚至 Android 和 iOS 上玩 devilutionX，也可以通过 devilutionX 提供的接口来更方便地制作 mod。
+知则建议使用 devilutionX 来代替各种非官方补丁。 devilutionX 本身不是一个补丁程序，而是一套能实现 Diablo 玩法的程序源码，其本身并不依赖于原版的 Diablo 可执行程序，而仅仅需要其数据文件。在 devilutionX 项目中，系统适配、画面调整、 bug 修复、 UI 改进、机制更改等都可以通过直接改动源码来解决。所以， devilutionX 比原版的 Diablo 更具灵活性，你可以在 Linux， Mac 甚至 Android 和 iOS 上玩 devilutionX，也可以通过 devilutionX 提供的接口来更方便地制作 mod。
 
-不过，由于版权问题， devilutionX 不能直接在其项目中包括 Diablo 的原始素材文件（包括声音和图像文件等）。你首先需要一份 Diablo 的游戏拷贝，然后将其中的数据文件复制给 devilutionX，这样才能使用 devilutionX 体验完整的游戏。在这一期，我们仅仅介绍 Windows 系统上 devilutionX 的安装方式。
+不过注意，由于版权问题， devilutionX 不能直接在其项目中包括 Diablo 的原始素材文件（包括声音和图像文件等）。你首先需要一份 Diablo 的游戏拷贝，然后将其中的数据文件复制给 devilutionX，这样才能使用 devilutionX 体验完整的游戏。
 
-整个过程并不复杂，第一步是打开 devilutionX 的 GitHub 项目页面。在这个页面上可以找到详细的安装说明的链接，其中的内容比这期简单的视频要丰富多了。
+## devilutionX 安装方式
+
+devilutionX 支持多个软硬件平台，而且有的平台还提供了多种安装方式。在其官方的文档中有比较详细的安装说明：
+
+* devilutionX docs Installing: <https://github.com/diasurgical/devilutionX/blob/master/docs/installing.md>
+
+在这一期，我们简单演示 Windows 系统上 devilutionX 的安装方式。
+
+整个过程并不复杂，第一步是打开 devilutionX 的 GitHub 项目页面：
 
 * devilutionX: <https://github.com/diasurgical/devilutionX>
 
-在项目的发布页面选择对应系统版本的程序下载。这里我们下载适用于 64 位 Windows 系统的版本。下载的文件是一个压缩包，解压后启动其中的 `devilutionx.exe` 即可运行，不需要安装。不过此时还缺少游戏数据文件，没法正常游戏，所以还需要从 GOG 版 Diablo 中复制游戏数据。
+在项目的发布页面选择对应系统版本的程序下载。这里我们下载适用于 64 位 Windows 系统的版本。下载的文件是一个压缩包，解压后启动其中的 `devilutionx.exe` 即可运行，不需要经过什么安装引导程序。不过此时还缺少游戏数据文件，没法正常游戏，所以还需要从 GOG 版 Diablo 中复制游戏数据。
 
 如果你自己在 GOG 上购买了游戏，那么下载安装之后，打开游戏的安装路径，从中复制 `DIABDAT.MPQ` 文件到 devilutionX 的根目录（也就是解压后 `devilutionx.exe` 所在的目录）下。这仅仅是原版游戏主体的数据文件，此外还要从游戏安装路径下的  `hellfire` 文件夹复制以下 4 个文件到 devilutionX 的根目录：
 
@@ -39,7 +47,9 @@ GOG 上售卖的 Diablo 虽然能在 Windows 11 上正常启动，但受限于�
 
 完成上述文件的复制之后，就可以启动 `devilutionx.exe` 进入游戏啦。
 
-进入游戏之后，建议先对 devilutionX 进行设置。这里不仅能调整分辨率等画面参数，也能开关 devilutionX 增加的一些改善游戏体验的功能，例如在血条魔条上显示具体的血量、魔量数值等。如果需要更多信息可以查看 devilutionX 的文档或者源码。
+## 游戏设置
+
+进入游戏之后，建议先对 devilutionX 进行设置。这里不仅能调整分辨率等画面参数，也能开关 devilutionX 增加的一些改善游戏体验的功能，例如自动捡钱，显示具体的血量、魔量、伤害数值，买卖物品时显示物品图标等。如果需要更多信息可以查看 devilutionX 的文档或者源码。
 
 ## 游戏内容百科
 
