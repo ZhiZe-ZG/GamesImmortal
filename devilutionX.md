@@ -1,6 +1,6 @@
-# Diablo and devilutionX
+# devilutionX
 
-* [一般介绍](./GeneralIntroduction.md)
+* [一般介绍](./devilutionX/GeneralIntroduction.md)
 
 * Manjaro 系统 AUR 安装
 * Android 系统安装

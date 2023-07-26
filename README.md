@@ -15,7 +15,7 @@
 ## 目录 | Content
 
 * Command & Conquer and OpenRA
-* [devilutionX](./devilutionX/README.md)
+* [devilutionX](./devilutionX.md)
 * Rogue and NetHack
 * Sid Meier's Civilization and FreeCiv
 
