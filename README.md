@@ -32,3 +32,19 @@
 目前该系列视频在如下平台发布：
 
 * [bilibili](https://www.bilibili.com/video/BV1h24y1P795/)
+
+### 视频工具 | Video Tools
+
+创作时用的一些视频命令。
+
+提取音频保存为 mp4 （音频输入为 48000 kHz）
+
+```powershell
+ffmpeg -i ./s.mp4 -vn -c:a aac -filter:a "loudnorm=I=-12:LRA=9:TP=-2" ./voice.mp4
+```
+
+最终压制：
+
+```powershell
+ffmpeg -i ./v.mp4 -map 0:0 -map 0:1 -c:v libx264 -crf 18 -preset:v veryslow -profile:v high -c:a copy -metadata:s:v:0 'language=zho' -metadata:s:a:0 'language=zho' ./out.mkv  
+```
