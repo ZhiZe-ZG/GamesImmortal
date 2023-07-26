@@ -51,6 +51,28 @@ devilutionX 支持多个软硬件平台，而且有的平台还提供了多种�
 
 进入游戏之后，建议先对 devilutionX 进行设置。这里不仅能调整分辨率等画面参数，也能开关 devilutionX 增加的一些改善游戏体验的功能，例如自动捡钱，显示具体的血量、魔量、伤害数值，买卖物品时显示物品图标等。如果需要更多信息可以查看 devilutionX 的文档或者源码。
 
+## 存档和配置备份
+
+如果你不希望自己辛辛苦苦打出来的存档或者配置文件因为换电脑之类的事情丢失，或者如果你需要在多个设备上同步游戏进度，那么可以自己到游戏存档和配置文件的路径备份或者覆盖文件。
+
+Windows 平台上的存档和配置文件默认路径是
+
+```shell
+%AppData%\diasurgical\devilution
+```
+
+其中的 `%AppData%` 是你的用户应用数据路径。你可以直接在文件浏览器（File Explorer）的地址栏中输入这个路径然后回车确认直接抵达。
+
+如果你喜欢一层一层点击文件夹，那么 `%AppData%` 一般是 `C:\Users\<username>\AppData\Roaming`。其中的 `<username>` 替换成你的 Windows 用户名。
+
+其他操作系统上的存档和配置文件默认路径可以参考官方的百科：
+
+* devilutionX Wiki Configuration Guide: <https://github.com/diasurgical/devilutionX/wiki/DevilutionX-diablo.ini-configuration-guide>
+
+此外还可以通过命令行参数修改存档和配置文件的保存路径，详情参考官方百科：
+
+* devilutionX Wiki Arguments Guide: <https://github.com/diasurgical/devilutionX/wiki/DevilutionX-additional-arguments-configuration-guide>
+
 ## 游戏内容百科
 
 devilutionX 的文档主要是对程序的使用说明，并不包括对游戏内容的详细说明。而 Diablo 这些老游戏也很少在游戏内包括系统的说明和新手指导。如果对游戏内容有所疑惑，可以参考如下资料。
