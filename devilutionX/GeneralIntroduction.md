@@ -50,4 +50,3 @@ devilutionX 的文档主要是对程序的使用说明，并不包括对游戏�
 * 凯恩之角 暗黑1: <https://wiki.d.163.com/index.php?title=%E9%A6%96%E9%A1%B5_%E6%9A%97%E9%BB%911>
 
 其中的 Jarulf's Guide to Diablo and Hellfire 是 devilutionX 开发时的参考，内容说明也很详细，个人比较推荐。
-
