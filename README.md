@@ -21,11 +21,11 @@
 
 ## 视频计划 | Video Project
 
-本项目有附属的视频项目。视频内容基于本项目文稿制作。由于视频不容易使用 Git 进行管理，所以视频目录单列出来并大致说明每一期视频对应的内容。如果视频补充说明原有内容的更新内容，则说明视频制作更新的时间。
+本项目有附属的视频项目。视频内容基于本项目文稿制作。由于视频不容易使用 Git 进行管理，所以视频目录单列出来并大致说明每一期视频对应的内容。方括号内是视频制作更新的时间。
 
 ### 视频目录 | Video Content
 
-1. 初代暗黑破坏神在现在系统上的重生： [devilutionX general introduction](./devilutionX/GeneralIntroduction.md)
+1. 初代暗黑破坏神在现在系统上的重生(20230603153944)： [devilutionX general introduction](./devilutionX/GeneralIntroduction.md)
 
 ### 视频发布平台 | Video Platform
 
