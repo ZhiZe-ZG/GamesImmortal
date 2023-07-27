@@ -14,6 +14,12 @@
 
 ## 目录 | Content
 
+一般性介绍：
+
+* [游戏组成和扩展原理](./GameStructure.md)
+
+游戏项目介绍：
+
 * Command & Conquer and OpenRA
 * [devilutionX](./devilutionX.md)
 * Rogue and NetHack
